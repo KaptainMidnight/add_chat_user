@@ -17,7 +17,7 @@ try:
             'access_token': access_token,
             'v': v,
             'user_id': str(i),
-            'chat_id': '111'
+            'chat_id': 'chat_id'  # Сюда чат в который будем добавлять
         })
 except Exception as e:
     print(f"Error: {e}")
